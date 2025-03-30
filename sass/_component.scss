@@ -188,7 +188,7 @@
 
     @media only screen and (max-width: $sm) {
       flex-direction: column;
-      padding: 1rem .5rem;
+      padding: 1rem 0.5rem;
     }
   }
 
@@ -228,6 +228,15 @@
 
 .gallery {
   display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 1rem;
+
+  @media only screen and (min-width: $xs) {
+    flex-wrap: nowrap;
+    gap: 0;
+    margin-top: 0;
+  }
 
   &__photo {
     width: 100%;
@@ -290,7 +299,7 @@
     justify-content: center;
 
     @media only screen and (max-width: $sm) {
-      padding:  0 1.5rem;
+      padding: 0 1.5rem;
     }
   }
 
@@ -309,7 +318,7 @@
     text-transform: uppercase;
 
     @media only screen and (max-width: $sm) {
-      font-size: .5rem;
+      font-size: 0.5rem;
     }
   }
 }
@@ -398,7 +407,7 @@
     background-size: cover;
 
     //Newer browsers - masks
-    @supports(-webkit-mask-image: url()) or (mask-image: url()) {
+    @supports (-webkit-mask-image: url()) or (mask-image: url()) {
       background-color: var(--color-primary);
       -webkit-mask-image: url(../img/chevron-thin-right.svg);
       -webkit-mask-size: cover;
