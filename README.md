@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-     <a href="PROJECT__URL">📱 Visit this Project</a>
+     <a href="https://trilloreserve.netlify.app/">📱 Visit this Project</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
@@ -22,7 +22,7 @@
     <img src="img/trillo-banner2.png" alt="Image Example" width="400px">
 </p>
 
-<h2 id="technologies">💻 Technologies</h2>
+<h2 id="tech">💻 Technologies</h2>
 
 - HTML5
 - CSS3
